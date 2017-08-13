@@ -1,0 +1,99 @@
+﻿.bgDOrange{ color: #F36523;}
+.bgPurple{ color: #7C517D;}
+.bgViolet{ color: #92278F;}
+.bgNavi{ color: #8EC6E1;}
+.bgLGreen{ color: #3AB54A;}
+.bgRed{ color: #FF0000;}
+.bgLBlue{ color: #087DCF;}
+
+.bgDOrange span{ background-color: #F36523;}
+.bgDOrange span span{ background-color: #ffffff; padding: 0 0 0 7px;}
+.bgPurple span{ background-color: #7C517D;}
+.bgPurple span span{ background-color: #ffffff; padding: 0 0 0 7px;}
+.bgViolet span{ background-color: #92278F;}
+.bgViolet span span{ background-color: #ffffff; padding: 0 0 0 7px;}
+.bgNavi span{ background-color: #8EC6E1;}
+.bgNavi span span{ background-color: #ffffff; padding: 0 0 0 7px;}
+.bgLGreen span{ background-color: #3AB54A;}
+.bgLGreen span span{ background-color: #ffffff; padding: 0 0 0 7px;}
+.bgRed span{ background-color: #FF0000;}
+.bgRed span span{ background-color: #ffffff; padding: 0 0 0 7px;}
+.bgLBlue span{ background-color: #087DCF;}
+.bgLBlue span span{ background-color: #ffffff; padding: 0 0 0 7px;}
+
+.box-pd-order{ width: 640px;}
+.scrolling-order{position: fixed; top: 35px; z-index: 999;}
+.scrolling-filter2{position: fixed; top: 45px; z-index: 999;}
+
+.filter-prd{ background-color: #faf8f9;padding: 5px;margin-bottom: 5px; }
+.filter-prd a{ color: #464646;display: block;float: right;text-align: center;line-height: 20px;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    background: url('../img/icon/arr1.png') no-repeat right center;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.filter-prd a.giatang{background: url('../img/icon/arr3.png') no-repeat right center;}
+.filter-prd a:hover{background-color: #ffffff; color: #de69de;}
+.filter-prd a.select{color: #de69de;
+background: url('../img/icon/arr2.png') no-repeat right center;
+ background-color: #ffffff;
+}
+.filter-prd a.giatang.select{background: url('../img/icon/arr4.png') no-repeat right center;
+ background-color: #ffffff;
+}
+.boxSearchfx{ width: 700px;}
+/*----Media Screen 0------*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {   
+}
+/*Media Screen (120-480)*/
+@media screen and (min-width: 120px) and (max-width: 480px) { 
+ .box-pd-order{ width: 100%;}
+ .filter-prd{ width: 100%;}
+ .btnPopup { top: 110px;}
+ .btnBottom {
+     bottom: 260px;
+     height: 190px;   
+}
+ .cp-row div.cp-content div.cp-image { height: 160px; overflow: hidden; }
+ .h-product-list-host .hph-item .hph-item-content .hph-i-img { height: 100px;overflow: hidden;}
+ /*.home-banner img { height: 200px; }*/
+ /*.mrg_img_kmh {margin-bottom: 2px;}*/
+ .icon-kimochi-logo { width: 30px;height: 30px;margin-top: 5px; }
+ .box_slogan {width: 160px;padding-top: 8px;margin: 0 auto;}
+.box_top_mnh a.mtmn1{ background: url('../img/icon/topmn/1.png') no-repeat left center; height: 32px; background-size: 28%; line-height: 16px;}
+.box_top_mnh a.mtmn2{ background: url('../img/icon/topmn/2.png') no-repeat left center; height: 32px; background-size: 28%; line-height: 16px;}
+.box_top_mnh a.mtmn3{font-size: 10px; background: url('../img/icon/topmn/3.png') no-repeat left center; height: 32px; background-size: 28%; line-height: 16px;}
+
+.list_mnspc2 a.hplmnc2{ 
+    min-height: 40px;
+}
+.mn_sub2 li h2{font-size: 11px;line-height: 14px;}
+.list_mnspc2 a.hplmnc2{ font-size: 13px;}
+}
+/*Media Screen (481-767)*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .box-pd-order{ width: 100%;}
+  .filter-prd{ width: 100%;}
+  /*.cp-row img { width:100%; max-height: 308px; height: auto; text-align:center; }*/
+  .btnPopup { top:145px;}
+  .btnBottom {
+      bottom: 330px;
+      height: 190px;
+   }
+  .cp-row div.cp-content div.cp-image { height: 197px; overflow: hidden; }
+  .h-product-list-host .hph-item .hph-item-content .hph-i-img { height: 197px; overflow: hidden;}
+  .box_top_mnh a{font-size: 16px;line-height: 20px;}
+
+  .wp1190 {width: 900px;margin: 0 auto;}
+}
+/*Media Screen (768-2000)*/
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+    .box_top_mnh a{font-size: 17px;line-height: 20px;}
+}
+/*Media Screen (768-900)*/
+@media (max-width: 1220px) {
+   .boxSearchfx{ width: 600px;}
+}
